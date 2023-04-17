@@ -1,0 +1,58 @@
+{
+    "errorMessageCode": "NONE",
+    "message": "LOAD completed successfully.",
+    "result": {
+        "END_TIME": "",
+        "LOAD_ID": 1681274381597,
+        "LOAD_LOGFILE": "loadlogs\/load_1681274381597_YRL01127_SPACEXTBL_20230412-151655-GMT.txt",
+        "LOAD_OUTPUT": [
+            {
+                "MESSAGE": "The DB2_LOAD_COPY_NO_OVERRIDE registry variable value \"COPY YES TO DB2REMOTE:\/\/db2-s3-load\/\/CSYS.DB2COS\/\/LoadCopies,DB2REMOTE\" overrides the COPY NO parameter specified in the Load.",
+                "SQLCODE": "SQL27966W"
+            },
+            {
+                "MESSAGE": "The utility is beginning to load data from file \"S3\".",
+                "SQLCODE": "SQL3109N"
+            },
+            {
+                "MESSAGE": "The utility is beginning the \"LOAD\" phase at time \"04\/12\/2023 15:17:01.422514\".",
+                "SQLCODE": "SQL3500W"
+            },
+            {
+                "MESSAGE": "Begin Load Consistency Point. Input record count = \"0\".",
+                "SQLCODE": "SQL3519W"
+            },
+            {
+                "MESSAGE": "Load Consistency Point was successful.",
+                "SQLCODE": "SQL3520W"
+            },
+            {
+                "MESSAGE": "The utility has completed processing.  \"101\" rows were read from the input file.",
+                "SQLCODE": "SQL3110N"
+            },
+            {
+                "MESSAGE": "Begin Load Consistency Point. Input record count = \"101\".",
+                "SQLCODE": "SQL3519W"
+            },
+            {
+                "MESSAGE": "Load Consistency Point was successful.",
+                "SQLCODE": "SQL3520W"
+            },
+            {
+                "MESSAGE": "The utility has finished the \"LOAD\" phase at time \"04\/12\/2023 15:17:01.919651\".",
+                "SQLCODE": "SQL3515W"
+            }
+        ],
+        "LOAD_STATUS": "RUNNING",
+        "ROWS_COMMITTED": 101,
+        "ROWS_DELETED": 0,
+        "ROWS_LOADED": 101,
+        "ROWS_READ": 101,
+        "ROWS_REJECTED": 0,
+        "ROWS_SKIPPED": 0,
+        "SCHEMA": "YRL01127",
+        "START_TIME": "20230412 15:16:55 GMT",
+        "TABLE": "SPACEXTBL"
+    },
+    "resultCode": "SUCCESS"
+}
